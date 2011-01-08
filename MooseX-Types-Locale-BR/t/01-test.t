@@ -20,7 +20,7 @@ ok ( $test->state("Bahia"), "State Ok");
 ok ( $test->code("MT"), "Code Ok");
 
 throws_ok { $test->state("Porto Alegre") }
-    qr/Must be a valid State/, 'Throws as "Porto Alegre" is not a valid state';
+    qr/Must be a valid state/, 'Throws as "Porto Alegre" is not a valid state';
 
 throws_ok { $test->code("PF") }
-    qr/Must be a valid State's code/, 'Throws as "PF" is not a valid code';
+    qr/Must be a valid state's code/, 'Throws as "PF" is not a valid code';
