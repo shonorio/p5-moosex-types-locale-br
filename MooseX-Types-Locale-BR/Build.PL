@@ -11,7 +11,7 @@ my $builder = Module::Build->new(
         'MooseX::Types' => 0,
         'MooseX::Types::Common::String' => 0,
         'Locale::BR' => 0,
-    }
+    },
     build_requires => {
         'Test::More' => 0,
     },
