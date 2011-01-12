@@ -8,7 +8,6 @@ use Test::Exception;
   package MyClass;
   use Moose;
   use MooseX::Types::Locale::BR;
-  use namespace::autoclean;
   
   has state => ( is => 'rw', isa => 'MooseX::Types::Locale::BR::State' );
   has code  => ( is => 'rw', isa => 'MooseX::Types::Locale::BR::Code'  );
